@@ -1,0 +1,16 @@
+{
+  "name": "portfolio-carlos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfólio com envio de e-mail via função serverless (Vercel + Nodemailer)",
+  "scripts": {
+    "start": "vercel dev --yes",
+    "build": "echo 'Static project'",
+    "dev": "vercel dev --yes"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.13"
+  }
+}
+
+
